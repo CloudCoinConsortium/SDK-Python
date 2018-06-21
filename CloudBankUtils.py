@@ -267,8 +267,8 @@ class CloudBankUtils(ICloudBankUtils):
 		<param name="path">The full file path where the new file will be written</param> 
 		"""
 		File.WriteAllText(path + self.getStackName(), self._rawStackFromWithdrawal)
-
 	#WriteFile(path + stackName, rawStackFromWithdrawal);
+	
 	def getStackName(self):
 		"""<summary>Generates a filename for the CloudCoin stack file to be written by saveStackToFile</summary>"""
 		if self._receiptNumber == None:
