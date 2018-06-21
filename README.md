@@ -9,4 +9,4 @@ Create a BankKeys object that contains the keys to the CloudService server you w
 
 ### Dependencies
 
-Newtonsoft.Json is used, via the import command, to Deserialize CloudService's responses.
+Newtonsoft.Json is used to Deserialize CloudService's responses.
