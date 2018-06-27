@@ -63,4 +63,27 @@ class IKeys(object):
 
 	publickey = property(fget=get_publickey, fset=set_publickey)
 
-INCOMPLETE 
+	def get_privatekey(self):
+
+	def set_privatekey(self, value):
+
+	privatekey = property(fget=get_privatekey, fset=set_privatekey)
+
+	def get_email(self):
+
+	def set_email(self, value):
+
+	email = property(fget=get_email, fset=set_email)
+
+class IBankResponse(object):
+	def get_bank_server(self):
+
+	def set_bank_server(self, value):
+
+	bank_server = property(fget=get_bank_server, fset=set_bank_server)
+
+	def get_time(self):
+
+	def set_time(self, value):
+
+	time = property(fget=get_time, fset=set_time)
