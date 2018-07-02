@@ -1,4 +1,4 @@
-from Newtonsoft.Json import *
+from Newtonsoft.Json import *l
 
 class ReceiptDetail(object):
 	def get_nn(self):
